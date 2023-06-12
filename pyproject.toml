@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "docx2pdf"
+name = "docx2pdfwlower"
 version = "0.1.8"
 description = "Convert docx to pdf on Windows or macOS directly using Microsoft Word (must be installed)."
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/AlJohri/docx2pdf"
-repository = "https://github.com/AlJohri/docx2pdf"
-authors = ["Al Johri <al.johri@gmail.com>"]
+homepage = "https://github.com/probJjohns/docx2pdf"
+repository = "https://github.com/probJjohns/docx2pdf"
+authors = []
 classifiers = [
 	"Operating System :: MacOS",
 	"Environment :: MacOS X",
