@@ -1,6 +1,6 @@
 # docx2pdf
 
-[![PyPI](https://img.shields.io/pypi/v/docx2pdf)](https://pypi.org/project/docx2pdf/)
+[![PyPI](https://img.shields.io/pypi/v/docx2pdfwlower)](https://pypi.org/project/docx2pdfwlower/)
 
 Convert `docx` to `pdf` on Windows or macOS directly using Microsoft Word (**must be installed**).
 
@@ -8,45 +8,39 @@ On Windows, this is implemented via [`win32com`](https://pypi.org/project/pywin3
 
 ## Install
 
-On macOS:
-
-```
-brew install aljohri/-/docx2pdf
-```
-
 Via [pipx](https://pipxproject.github.io/pipx/):
 
 ```
-pipx install docx2pdf
+pipx install docx2pdfwlower
 ```
 
 Via pip:
 
 ```
-pip install docx2pdf
+pip install docx2pdfwlower
 ```
 
 ## CLI
 
 ```
-usage: docx2pdf [-h] [--keep-active] [--version] input [output]
+usage: docx2pdfwlower [-h] [--keep-active] [--version] input [output]
 
 Example Usage:
 
 Convert single docx file in-place from myfile.docx to myfile.pdf:
-    docx2pdf myfile.docx
+    docx2pdfwlower myfile.docx
 
 Batch convert docx folder in-place. Output PDFs will go in the same folder:
-    docx2pdf myfolder/
+    docx2pdfwlower myfolder/
 
 Convert single docx file with explicit output filepath:
-    docx2pdf input.docx output.pdf
+    docx2pdfwlower input.docx output.pdf
 
 Convert single docx file and output to a different explicit folder:
-    docx2pdf input.docx output_dir/
+    docx2pdfwlower input.docx output_dir/
 
 Batch convert docx folder. Output PDFs will go to a different explicit folder:
-    docx2pdf input_dir/ output_dir/
+    docx2pdfwlower input_dir/ output_dir/
 
 positional arguments:
   input          input file or folder. batch converts entire folder or convert
@@ -62,14 +56,14 @@ optional arguments:
 ## Library
 
 ```python
-from docx2pdf import convert
+from docx2pdfwlowers import convert
 
 convert("input.docx")
 convert("input.docx", "output.pdf")
 convert("my_docx_folder/")
 ```
 
-See CLI docs above (or in `docx2pdf --help`) for all the different invocations. It is the same for the CLI and python library.
+See CLI docs above (or in `docx2pdfwlower --help`) for all the different invocations. It is the same for the CLI and python library.
 
 ## Jupyter Notebook
 
