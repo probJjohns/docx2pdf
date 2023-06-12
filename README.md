@@ -1,4 +1,4 @@
-# docx2pdf
+# docx2pdfwlower
 
 [![PyPI](https://img.shields.io/pypi/v/docx2pdfwlower)](https://pypi.org/project/docx2pdfwlower/)
 
