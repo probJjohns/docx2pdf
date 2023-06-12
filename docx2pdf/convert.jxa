@@ -69,7 +69,7 @@ function parseArgs([inputPath, outputPath, keepActive, ...rest]) {
 
   keepActive = keepActive === "true";
 
-  inputPath = Path(inputPath).toString();
+  inputPath = Path(inputPath).toString().toLowerCase();
   if (!outputPath) outputPath = inputPath;
 
   outputPath = Path(outputPath).toString();
